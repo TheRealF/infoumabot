@@ -2,7 +2,7 @@ const Telegraf = require('telegraf');
 let Parser = require('rss-parser');
 let parser = new Parser();
 
-const bot = new Telegraf('671026420:AAEgFgTvt7L2X5jN0EjzPgLJ1WNhdrenUEw');
+const bot = new Telegraf('671026420:AAG3Vx5anaNoCKCMF0z_JN-fGQWJk2gW9kE');
 
 
 bot.start((ctx) => ctx.reply('Ciao! Sono Infoumy il bot di Informatica Umanistica.\nAll\' interno del gruppo telegram posterò in automatico tutte le news pubblicate dai docenti sul sito del corso e gli aggiornamenti del drive del corso.\nQui puoi chattare con me, per la lista dei comandi disponibili digita o clicca /help.'))
