@@ -14,7 +14,6 @@ bot.hears('orario', (ctx) => ctx.reply('Orario: http://www.fileli.unipi.it/infou
 bot.hears('feed', async (ctx) => {
 
   let feed = await parser.parseURL("http://www.fileli.unipi.it/infouma/category/home/feed/");
-  console.log(feed.title);
   ctx.reply(feed.title);
 
   let feed_count = 0;
@@ -30,7 +29,6 @@ bot.hears('feed', async (ctx) => {
 bot.hears('ftp', async (ctx) => {
 
   let feed = await parser.parseURL("http://fetchrss.com/rss/5bb656118a93f8340d8b4567283916021.atom");
-  console.log(feed.title);
   ctx.reply(feed.title);
 
   let feed_count = 0;
