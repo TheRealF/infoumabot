@@ -1,6 +1,6 @@
 {
   "name": "infoumy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bot per gli studenti di Informatica Umanistica UNIPI",
   "main": "index.js",
   "dependencies": {
@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "keywords": [
     "bot",
@@ -18,6 +19,5 @@
     "infouma"
   ],
   "author": "Federico Boggia aka TheRealF",
- "scripts": {
-  "start": "node index.js",}, "license": "MIT"
+  "license": "MIT"
 }
