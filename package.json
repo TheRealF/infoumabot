@@ -18,5 +18,6 @@
     "infouma"
   ],
   "author": "Federico Boggia aka TheRealF",
-  "license": "MIT"
+ "scripts": {
+  "start": "node index.js",}, "license": "MIT"
 }
