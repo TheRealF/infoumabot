@@ -41,4 +41,3 @@ bot.hears('ftp', async (ctx) => {
   });
 
 });
-bot.startPolling();
