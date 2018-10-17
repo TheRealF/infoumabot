@@ -19,5 +19,8 @@
     "infouma"
   ],
   "author": "Federico Boggia aka TheRealF",
-  "license": "MIT"
+  "license": "MIT",  "engines": {
+    "node": "7.0.0",
+    "npm": "3.10.8"
+  }
 }
