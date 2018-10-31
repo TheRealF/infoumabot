@@ -1,6 +1,6 @@
 const Telegraf = require('telegraf');
-//let Parser = require('rss-parser');
-//let parser = new Parser();
+let Parser = require('rss-parser');
+let parser = new Parser();
 
 const bot = new Telegraf('671026420:AAG3Vx5anaNoCKCMF0z_JN-fGQWJk2gW9kE');
 
@@ -12,7 +12,7 @@ bot.hears('infoumy', (ctx) => ctx.reply('Hey ciao usa /help per sapere quali son
 bot.hears('appunti', (ctx) => ctx.reply('Drive: https://drive.google.com/open?id=1ER_GYyWSPvwinWuHiisAVq7IlJwK2E6P'))
 bot.hears('orario', (ctx) => ctx.reply('Orario: http://www.fileli.unipi.it/infouma/laurea-triennale/orario/'))
 
-/*bot.hears('feed', async (ctx) => {
+bot.hears('feed', async (ctx) => {
 
   let feed = await parser.parseURL("http://www.fileli.unipi.it/infouma/category/home/feed/");
   ctx.reply(feed.title);
@@ -42,5 +42,5 @@ bot.hears('ftp', async (ctx) => {
   });
 
 });
-*/
+
 bot.startPolling()
